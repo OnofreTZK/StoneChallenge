@@ -1,5 +1,9 @@
 # StoneChallenge
 
+# Dependencies 
+ - Python 3.9.9
+ - Pytest 6.2.5
+
 # Usage
 
 To import the function calculateBillParts into another file:
