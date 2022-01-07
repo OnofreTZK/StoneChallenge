@@ -34,25 +34,3 @@ def calculateBillParts(bill, names):
     return debtors
 
 
-
-bills = [{
-    'name': 'Almoço self-service',
-    'quantity': 0.757,
-    'unit': 45.99
-},
-         {
-    'name': 'Passeio de escuna',
-    'quantity': 3,
-    'unit': 80.00
-},
-         {
-    'name': 'Diária do hotel',
-    'quantity': 3,
-    'unit': 337.99
-}]
-
-names = ['Tiago', 'Onofre', 'Araujo']
-
-debDict = calculateBillParts(bills, names)
-
-print(debDict)
